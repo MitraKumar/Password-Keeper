@@ -1,0 +1,21 @@
+{
+  "name": "password-keeper",
+  "productName": "Password Keeper",
+  "version": "1.0.0",
+  "description": "A Simple application using Electron to save passwords",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --overwrite --asar --platform=win32 --version-string.ProductName=\"Password Keeper\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "electron": "^2.0.8"
+  },
+  "devDependencies": {
+    "electron-packager": "^12.1.2"
+  }
+}
